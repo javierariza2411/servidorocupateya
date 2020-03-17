@@ -50,7 +50,7 @@ app.use(require('express-session')({
 
 
 //Port
-app.set('port', process.env.PORT || 5101);
+app.set('port', process.env.PORT || 5100);
 app.listen(app.get('port'), () => {
 	console.log('Server is in port', app.get('port'));
 });

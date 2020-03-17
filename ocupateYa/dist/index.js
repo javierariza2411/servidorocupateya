@@ -23,5 +23,5 @@ app.use((req, res, next) => {
 app.use(consignaciones_1.default);
 app.use(conciliacion_1.default);
 app.use(consignacionesManuales_1.default);
-app.listen(3000);
+app.listen(5101);
 console.log('Server on port', 5101);
